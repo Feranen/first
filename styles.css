@@ -37,10 +37,10 @@ button:hover {
     background-color: black;
 }
 
-    @keyframes moveBall {
-        0% {transform: translateY(0)}
-        100% {transform: translateY(calc(100vh - 100px))} 
-    }
+@keyframes moveBall {
+    0% {transform: translateY(0)}
+    100% {transform: translateY(calc(100vh - 100px))} 
+}
 
 .ball {
     position: absolute;
